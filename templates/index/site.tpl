@@ -26,6 +26,7 @@
 {/if}
 
 {iterate from=journals item=journal}
+	<div class="journalIndex">
 	{if $site->getSetting('showThumbnail')}
 		{assign var="displayJournalThumbnail" value=$journal->getLocalizedSetting('journalThumbnail')}
 		<div style="clear:left;">
@@ -46,6 +47,7 @@
 		{/if}
 	{/if}
 	<p><a href="{url journal=$journal->getPath()}" class="action">{translate key="site.journalView"}</a> | <a href="{url journal=$journal->getPath() page="issue" op="current"}" class="action">{translate key="site.journalCurrent"}</a> | <a href="{url journal=$journal->getPath() page="user" op="register"}" class="action">{translate key="site.journalRegister"}</a></p>
+	</div>
 {/iterate}
 {if $journals->wasEmpty()}
 	{translate key="site.noJournals"}
