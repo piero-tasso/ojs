@@ -363,6 +363,12 @@ class Application extends PKPApplication {
 			'http://creativecommons.org/licenses/by-nd/4.0' => 'submission.license.cc.by-nd4',
 			'http://creativecommons.org/licenses/by/4.0' => 'submission.license.cc.by4',
 			'http://creativecommons.org/licenses/by-sa/4.0' => 'submission.license.cc.by-sa4'
+			'http://creativecommons.org/licenses/by-nc-nd/3.0' => 'submission.license.cc.by-nc-nd3',
+			'http://creativecommons.org/licenses/by-nc/3.0' => 'submission.license.cc.by-nc3',
+			'http://creativecommons.org/licenses/by-nc-sa/3.0' => 'submission.license.cc.by-nc-sa3',
+			'http://creativecommons.org/licenses/by-nd/3.0' => 'submission.license.cc.by-nd3',
+			'http://creativecommons.org/licenses/by/3.0' => 'submission.license.cc.by3',
+			'http://creativecommons.org/licenses/by-sa/3.0' => 'submission.license.cc.by-sa3'
 		);
 	}
 
